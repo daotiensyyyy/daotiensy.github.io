@@ -4,7 +4,7 @@
 
 }
 .navbar-brand{
-  background-color: #1d2124;
+  background-color: black;
   color: white;
   width: 150px;
 }
@@ -82,5 +82,4 @@ color: white;
 }
 .sign-up input{
   width: 300px;
-
 }
