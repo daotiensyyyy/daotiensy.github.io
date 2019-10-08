@@ -103,6 +103,7 @@ form .note {
 input#name,#code,#price{
   border-radius: 20px;
 }
+
 form input:focus, form textarea:focus { outline: none; }
 
 /* placeholder styles: http://stackoverflow.com/a/2610741/477958 */
@@ -110,3 +111,21 @@ form input:focus, form textarea:focus { outline: none; }
 :-moz-placeholder { color: #aaafbd; font-style: italic; }           /* Mozilla Firefox 4 to 18 */
 ::-moz-placeholder { color: #aaafbd; font-style: italic; }          /* Mozilla Firefox 19+ */
 :-ms-input-placeholder { color: #aaafbd; font-style: italic; }      /* Internet Explorer 10+ */
+
+h5{
+  color:
+}
+h3.footer-section-title {text-align: -webkit-left;}
+button.btn.btn-success {
+    background-color: floralwhite;
+    color: darkblue;
+    border-color: blue;
+    font-size: x-large;
+
+}
+.info b{
+  color: darkblue;
+}
+.detail b{
+  color: darkblue;
+}
