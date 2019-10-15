@@ -129,3 +129,9 @@ button.btn.btn-success {
 .detail b{
   color: darkblue;
 }
+.col-md-10{
+  padding-top: 10px;
+}
+.col-md-2{
+  padding-top: 10px;
+}
