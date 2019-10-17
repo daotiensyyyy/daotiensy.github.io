@@ -36,15 +36,20 @@ a {
 ul.nav.sub {
   justify-content: center;
 }
+ul.nav.nav-tabs {
+
+}
 .nav.sub li{
-  background-color: black;
+  background-color: white;
+
 }
 .menu li{
-  background-color: cadetblue;
+  background-color: #f7f7f7;
 }
 .menu a{
-  color: white;
+  color: black;
   text-decoration: none;
+  font-size: 17px;
 }
 .menu a:hover{
   color: red;
@@ -134,4 +139,49 @@ button.btn.btn-success {
 }
 .col-md-2{
   padding-top: 10px;
+}
+.title a{
+  position: absolute;
+  color: white;
+  font-size: 18px;
+  top: 80%;
+  padding: 10px;
+    font-weight: bold;
+}
+.title2 a{
+  position: absolute;
+  color: white;
+  font-size: 18px;
+  top: 30%;
+  padding: 10px;
+  font-weight: bold;
+}
+.title3 a{
+  position: absolute;
+  color: white;
+  font-size: 18px;
+  top: 80%;
+  padding: 10px;
+    font-weight: bold;
+}
+.homepage{
+  padding-bottom: 20px;
+  color: #569109;
+}
+.tit{
+  color: black;
+}
+div#navbarSupportedContent {
+    background: #569109;
+}
+li.nav-item {
+    background: border-box;
+}
+
+.footer li{
+  display: flex;
+}
+.footer ul{
+  justify-content: center;
+  display: flex;
 }
