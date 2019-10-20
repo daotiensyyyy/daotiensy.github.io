@@ -16459,8 +16459,14 @@ textarea {
 
 .slider-home .slide {
   position: relative;
-  overflow: visible;
+  overflow: hidden;
   height: auto !important;
+}
+
+.slider-home .slide:after {
+  content: '';
+  display: block;
+  padding-top: 35.92%;
 }
 
 .slider-home .slide-image {
@@ -16549,6 +16555,7 @@ textarea {
     padding: 6px;
   }
 }
+
 
 /* ------------------------------------------------------------ *	Post Slider
 \* ------------------------------------------------------------ */
