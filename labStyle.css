@@ -185,3 +185,6 @@ li.nav-item {
   justify-content: center;
   display: flex;
 }
+h3.footer-section-title{
+  text-align: left;
+}
