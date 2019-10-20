@@ -16459,14 +16459,8 @@ textarea {
 
 .slider-home .slide {
   position: relative;
-  overflow: hidden;
+  overflow: visible;
   height: auto !important;
-}
-
-.slider-home .slide:after {
-  content: '';
-  display: block;
-  padding-top: 35.92%;
 }
 
 .slider-home .slide-image {
