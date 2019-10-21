@@ -166,13 +166,15 @@ button.btn.btn-success {
 }
 .homepage{
   padding-bottom: 20px;
-  color: #569109;
+  color: cadetblue;
+
 }
 .tit{
   color: black;
+
 }
 div#navbarSupportedContent {
-    background: #569109;
+    background: cadetblue;
 }
 li.nav-item {
     background: border-box;
@@ -187,4 +189,87 @@ li.nav-item {
 }
 h3.footer-section-title{
   text-align: left;
+}
+.image-home{
+width: 100%;
+height: 500px;
+}
+.image-home img{
+  width: 100%;
+  height: 100%;
+}
+.item{
+  position: absolute;
+  width: 100%;
+}
+.item h3{
+  position: absolute;
+  top: 180px;
+  left: 40px;
+  color: #c0a554;
+}
+.item button{
+  position: absolute;
+  top: 250px;
+  width: max-content;
+  left: 40px;
+  background-color: #c0a554;
+  color:white;
+  border-radius: 20px;
+}
+div#navbarSupportedContentex2{
+  background-color: black;
+  width: 100%;
+
+}
+
+#navbarSupportedContentex2 a.nav-link{
+  color: white;
+}
+#navbarSupportedContentex2 a.nav-link:hover{
+  color: #c0a554;
+}
+#navbarSupportedContentex2 button.btn.btn-outline-success.my-2.my-sm-0{
+  border-style: hidden;
+  color: white;
+}
+#navbarSupportedContentex2 button.btn.btn-outline-success.my-2.my-sm-0:hover{
+  background-color: #c0a554;
+}
+#navbarSupportedContentex2 div{
+  color: white;
+}
+.ex2-footer span{
+  color: white;
+  left: 20px;
+}
+.fas.fa-heart{
+  color: #a80624;
+  font-size: 40px;
+
+}
+.fas.fa-wallet{
+  color: #a80624;
+  font-size: 40px;
+}
+.fas.fa-smile{
+  color: #a80624;
+  font-size: 40px;
+}
+.ex1 img{
+  max-height: 300px;
+  max-width: 300px;
+  float: right;
+}
+.cart{
+  color: white;
+  font-size: 30px;
+  right: 10px;
+  padding-right: 20px;
+}
+.ex1-button{
+  padding-top:140px;
+}
+.ex1-button button{
+  background-color:cadetblue;
 }
