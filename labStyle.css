@@ -13,6 +13,7 @@ h3{
 .tour{
   text-align: center;
   align-items: center;
+  background-color: white;
 }
 .tour img{
   width: 50%;
@@ -59,21 +60,15 @@ h2 {
     margin-top: 50px;
     margin-bottom: 30px;
 }
+.col-md-2 button.btn.btn-primary {
+  top: 50%;
+  width: 100%;
+}
+.col button.btn.btn-primary {
+  background-color: azure;
+  color: cadetblue;
+}
 
-button.btn.btn-danger {
-    align-self: center;
-}
-h3#add {
-    padding-top: 50px;
-    padding-bottom: -20px;
-}
-
-h3#top {
-    padding-top: 50px;
-}
-h3#edit {
-    padding-top: 50px;
-}
 ul.nav{
   padding-top: 40px;
 }
@@ -86,14 +81,11 @@ form .row:hover {
   background: #f1f7fa;
 }
 
-form label {
-  display: inline-block;
-  font-size: 1.2em;
-  font-weight: bold;
-  width: 120px;
-  padding: 6px 0;
-  color: #464646;
-  vertical-align: top;
+#searchForm{
+
+}
+#searchForm label {
+  text-align: left;
 
 }
 form .req { color: #ca5354; }
