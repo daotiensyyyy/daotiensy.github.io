@@ -44,8 +44,11 @@ ul.nav.nav-tabs {
   background-color: white;
 
 }
+
 .menu li{
   background-color: #f7f7f7;
+
+
 }
 .menu a{
   color: black;
@@ -360,7 +363,7 @@ div#navbarSupportedContentex2{
 }
 .booking button a{
   color: white;
-  
+
 }
 .col-md-8 form{
   text-align: justify;
