@@ -291,7 +291,7 @@ div#navbarSupportedContentex2{
 }
 
 .sidenav a:hover {
-  color: #f1f1f1;
+  color: black;
 }
 
 .sidenav .closebtn {
@@ -307,7 +307,8 @@ div#navbarSupportedContentex2{
   .sidenav a {font-size: 18px;}
 }
 .navigation{
-  padding: 20px;
+  padding: 15px;
+  background-color: #a5a4a482;
 }
 /* ------zoom image------ */
 
@@ -335,9 +336,57 @@ div#navbarSupportedContentex2{
 .amount{
   display: ruby;
 }
-.amount-item{
-  text-align: center;
+.col-md-7 div{
+  color: #ff4747;
 }
-div.amount-item{
-  display: block ruby;
+.col-md-7 small{
+  font-size: 13px;
+  color: black;
+}
+.product-name{
+  font-size: 18px;
+}
+.product-info {
+  color: black !important;
+}
+.category{
+  background-color: cadetblue;
+  color: white;
+  padding: 10px;
+}
+.booking button{
+  color: white;
+  background-color: #ff4747;
+}
+.booking button a{
+  color: white;
+  
+}
+.col-md-8 form{
+  text-align: justify;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap:20px;
+}
+.container.booking-cont{
+  max-width:1170px;
+  margin-left:auto;
+  margin-right:auto;
+  padding:10em;
+}
+.col-md-8 form button, form input, form textarea{
+  width:100%;
+  padding:1em;
+  border:1px solid #c9e6ff;
+}
+
+.wrapper.wrap{
+  box-shadow: 0 0 20px 0 rgba(72,94,116,0.7);
+}
+
+.wrapper.wrap > *{
+  padding: 1em;
+}
+.hospital.col-md-4{
+  background-color: cadetblue;
 }

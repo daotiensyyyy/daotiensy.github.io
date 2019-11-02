@@ -46,6 +46,7 @@
   </style>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" href="labStyle.css">
+  <link rel="stylesheet" href="labScript.css">
   <link rel="stylesheet" id="wp-block-library-css" href="./Morning Time – My Personal Blog_files/style.min.css" type="text/css" media="all">
   <link rel="stylesheet" id="wc-block-style-css" href="./Morning Time – My Personal Blog_files/style.css" type="text/css" media="all">
   <link rel="stylesheet" id="contact-form-7-css" href="./Morning Time – My Personal Blog_files/styles.css" type="text/css" media="all">
@@ -345,7 +346,7 @@
             </div>
             <div role="tabpanel" class="tab-pane active" id="messages">
               <div class="fluid-container"style="background-color:white;">
-                <div class="row">
+                <div class="row category">
                   <div id="mySidenav" class="sidenav">
                     <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
                     <a href="#">Phones-Tablets</a>
@@ -375,16 +376,18 @@
                     <div><small>Saving: </small>29% (2.000.000 vnd)</div>
                     <div><small>Promotion ends after: </small><p id="demo"></p></div>
                     <hr>
-                    <div>- Genuine products, New 100%, Original seal</div>
-                    <div>- The product has activated electronic warranty through Samsung switchboard 6060</div>
-                    <div>- Free nationwide standard delivery</div>
-                    <div>- Design: Monolithic, infinity screen</div>
-                    <div>- Screen: 6.4 ”FHD + Super AMOLED (1080x2340)</div>
-                    <div>- Rear Camera: 5MP (F2.2) + 25MP (F1.7) + 8MP (F2.2) ultra wide</div>
-                    <div>- Front Camera: 25MP (F2.0)</div>
-                    <div>- CPU: Exynos 9610 Octa Core 2.3GHz</div>
-                    <div>- Memory: 64GB / RAM: 4GB / Maximum memory card up to: 512GB</div>
-                    <div>- Features: Under-screen fingerprint sensor, App Pair, Face Detection, Dolby Atmos High-end surround sound, Bixby Virtual Assistant</div>
+
+                    <div class="product-info">- Genuine products, New 100%, Original seal</div>
+                    <div class="product-info">- The product has activated electronic warranty through Samsung switchboard 6060</div>
+                    <div class="product-info">- Free nationwide standard delivery</div>
+                    <div class="product-info">- Design: Monolithic, infinity screen</div>
+                    <div class="product-info">- Screen: 6.4 ”FHD + Super AMOLED (1080x2340)</div>
+                    <div class="product-info">- Rear Camera: 5MP (F2.2) + 25MP (F1.7) + 8MP (F2.2) ultra wide</div>
+                    <div class="product-info">- Front Camera: 25MP (F2.0)</div>
+                    <div class="product-info">- CPU: Exynos 9610 Octa Core 2.3GHz</div>
+                    <div class="product-info">- Memory: 64GB / RAM: 4GB / Maximum memory card up to: 512GB</div>
+                    <div class="product-info">- Features: Under-screen fingerprint sensor, App Pair, Face Detection, Dolby Atmos High-end surround sound, Bixby Virtual Assistant</div>
+
                     <hr>
                     <div class="button-color"><small>Choose color: </small>
                       <button class="btn btn-primary" style="background-color:cadetblue; color:white;">white</button>
@@ -392,15 +395,60 @@
                       <button class="btn btn-primary">Black</button>
                     </div>
                     <div class="amount"><small>Amount:</small>
-                      <div class="amount-item">
-                      <button type="button" name="button"style="width:20px;background-color:cadetblue;">-</button>
-                      <input type="text" name="" value="1"style="width:30px;">
-                      <button type="button" name="button"style="width:20px;background-color:cadetblue;">+</button>
-                      </div>
+                      <select class="" name="" style="width:50px;">
+                        <option selected="selected" value="">1</option>
+                        <option value="">2 </option>
+                        <option value="">3 </option>
+                        <option value="">4 </option>
+                      </select>
+                  </div>
+                  <div class="booking">
+                    <button type="button" name="button" class="btn btn-btn-primary"><a href="#booking-form">Buy</a></button>
                   </div>
                 </div>
               </div>
+              <div class="container booking-cont" id="booking-form">
+                <div class="wrapper wrap">
+                  <div class="row" style="padding: 0;">
+                    <div class="hospital col-md-4" style="">
+                      <h4></h4>
+                    </div>
+                    <div class="col-md-8" style="padding:2em;">
+                      <div class="row" style=""><h4>Booking form</h4></div>
+                      <div class="row">
+                        <form>
+                          <div class="form-group">
+                          <label for="">Fullname: </label>
+                          <input type="text" name="" value="" placeholder="Ex: Nguyen Van A">
+                          </div>
+                          <div class="form-group">
+                          <label for="">Email: </label>
+                          <input type="text" name="" value="" placeholder="Ex: Nguyenvana@gmail.com">
+                          </div>
+                          <div class="form-group">
+                          <label for="">Address:</label>
+                          <input type="text" name="" value=""placeholder="Ex: 123, Ab Street">
+                          </div>
+                          <div class="form-group">
+                          <label for="">Notes for shipper: </label>
+                          <input type="text" name="" value="" placeholder="Type something you want to remind us">
+                          </div>
+                          <div class="btn">
+                            <label for=""></label>
+                            <button type="button" name="button">Submit</button>
+                          </div>
+                        </form>
+                      </div>
+                    </div>
+
+                </div>
+              </div>
             </div>
+            <footer class="footer" style="background-color: cadetblue;top:20px;height:60px;">
+              <div class=""style="color:white;">
+                Design by DTS
+              </div>
+            </footer>
 
           </div>
         </div>
@@ -540,7 +588,7 @@
       <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
       <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
       <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.js"></script>
       <script type="text/javascript" src="jquery-3.3.1.min.js"></script>
       <!--<script type="text/javascript" src="labScript.js"></script>-->
       <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
