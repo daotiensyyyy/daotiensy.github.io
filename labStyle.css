@@ -339,7 +339,7 @@ div#navbarSupportedContentex2{
 .amount{
   display: ruby;
 }
-.col-md-7 div{
+.col-md-7.pro-name div{
   color: #ff4747;
 }
 .col-md-7 small{
