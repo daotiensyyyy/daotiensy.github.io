@@ -304,16 +304,22 @@
         <h3 style="padding-top: 100px;">LAB 4</h3>
         <div class="menu group-tabs">
           <!-- Nav tabs -->
-          <ul class="nav nav-pills" >
-            <li role="presentation" class=""><a href="#home" aria-controls="home" role="tab" data-toggle="tab">Requirement</a></li>
-            <li role="presentation"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">Design</a></li>
-            <li role="presentation"><a href="#messages" aria-controls="messages" role="tab" data-toggle="tab">Implementation</a></li>
+          <ul class="nav nav-tabs card-header-tabs" id="myTab" role="tablist">
+                    <li class="nav-item">
+                      <a class="nav-link active" id="home" data-toggle="tab" href="#require" role="tab" aria-controls="home" aria-selected="true">Requirement</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" id="profile" data-toggle="tab" href="#design" role="tab" aria-controls="profile" aria-selected="false">Design</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" id="messages" data-toggle="tab" href="#implement" role="tab" aria-controls="messages" aria-selected="false">Implementation</a>
+                    </li>
 
-          </ul>
+                  </ul>
 
           <!-- Tab panes -->
           <div class="tab-content">
-            <div role="tabpanel" class="tab-pane active" id="home">
+            <div role="tabpanel" class="tab-pane active" id="require">
               <table>
                 <tr>
                   <td><b>STT</b></td>
@@ -334,7 +340,7 @@
                 </tr>
               </table>
             </div>
-            <div role="tabpanel" class="tab-pane" id="profile">
+            <div role="tabpanel" class="tab-pane" id="design">
               <h4>Sketch</h4>
               <div class="row">
                 <div class="col-md-10"><img src="17130197_design\lab2_3.jpg" alt=""></div>
@@ -349,7 +355,7 @@
 
 
             </div>
-            <div role="tabpanel" class="tab-pane " id="messages">
+            <div role="tabpanel" class="tab-pane " id="implement">
               <div class="fluid-container" style="background-color:white;">
                 <div class="row category">
                   <div id="mySidenav" class="sidenav">
